@@ -1,0 +1,37 @@
+
+#header {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -ms-background-position-x: center;
+    -ms-background-position-y: bottom;
+    background-position: center bottom;
+    height: 22.5rem;
+    width: 100%;
+}
+
+
+#header.banner {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+    width: auto
+}
+
+#header .search {
+    position: relative;
+    top: 5rem;
+}
+
+#logo {
+    margin-bottom: 1.5rem;
+}
+
+@media only screen and (min-width : 768px) {
+    #header { height: 27.5rem; }
+  }
+  
+@media only screen and (min-width : 1200px) {
+    #header { height: 29rem; }
+  }
+
