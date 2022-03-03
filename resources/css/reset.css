@@ -11,10 +11,10 @@ html {
 
 body {
     width: 100%;
-    height: auto;
     display: grid;
-    grid-template: repeat(5, 1fr) / 1fr;
+    grid-template: repeat(6, 1fr) / 1fr;
     justify-items: center;
+    row-gap: 0.4rem;
 }
 
 header {
@@ -24,12 +24,10 @@ header {
 
 main {
     width: 90%;
-    grid-area: 3 / 1 / span 2 / span 1;
+    grid-area: 3 / 1 / span 3 / span 1;
 }
 
 footer {
     width: 100%;
-    grid-area: 5 / 1 / span 1 / span 1;;
-    border: 1px solid black;
-    padding: .5rem 2rem;
+    grid-area: 6 / 1 / span 1 / span 1;
 }
